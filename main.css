@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+}
+body{
+    background: url('../img/bg.gif');
+    
+}
+
+
+
+.typing-img{
+    width: 100%;
+    margin-top:150px;
+    margin-left: 40%;
+    
+}
+.descr{ 
+    
+    width: 100%;
+    height: 80px;
+    padding-top: 25px;
+    
+}
+.descr p{
+    font-size: 27px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+}
+
+#welcome{
+    margin-top: 20px;
+    -webkit-animation: flicker .2s infinite;
+    text-align:center;
+    font-family:'Lato', sans-serif;
+    font-size:3em;
+    color: #fff;
+}
+
+
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+	position: relative;
+	padding: 10px 40px;
+    margin: 0px 10px 10px 0px;
+    float: left;
+	border-radius: 10px;
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+	color: #FFF;
+    text-decoration: none;
+    margin-top: 10%;
+    position: absolute;
+    margin-left: 41%;
+    font-size: 40px;
+    -webkit-animation: flicker 2s infinite;	
+}
+.red
+{
+	background-color: #E74C3C;
+	border-bottom: 5px solid #BD3E31;
+	text-shadow: 0px -2px #BD3E31;
+}
+
+#startGame:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+@-webkit-keyframes flicker
+{
+    0% {opacity:0;}
+    9% {opacity:0;}
+    10% {opacity:.5;}
+    13% {opacity:0;}
+    20% {opacity:.5;}
+    25% {opacity:1;}
+}
+
+#timer{
+    text-align: center;
+    font-size: 50px;
+    background-color: red;
+}
